@@ -2,7 +2,7 @@
 >A Mikrotik Hotspot Api Client
 
 ## Screenshots
-<img src="https://raw.githubusercontent.com/azim254/mikhmonv3/master/images/WZ5az.jpg" width="250"/>
+<img src="https://raw.githubusercontent.com/azim254/mikhmonv3/master/images/WZ5az.jpg" width="700"/>
 
 
 ## Setup
