@@ -16,7 +16,7 @@
 .....
 
 ## TODO
-- [*] Basic functionality 
+- [x] Basic functionality 
 - [ ] Setup
 - [ ] Clean UX/UI
 - [ ] Refactor
