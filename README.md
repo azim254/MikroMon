@@ -14,6 +14,7 @@
 ## Debugging
 
 `$ chmod +x debug.sh`
+
 `$ ./debug.sh`
 .....
 
