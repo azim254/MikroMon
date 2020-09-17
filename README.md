@@ -16,7 +16,7 @@
 `$ chmod +x debug.sh`
 
 `$ ./debug.sh`
-.....
+
 
 ## TODO
 - [x] Basic functionality 
