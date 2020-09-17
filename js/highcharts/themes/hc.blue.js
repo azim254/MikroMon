@@ -4,14 +4,14 @@
  */
 
 Highcharts.theme = {
-	colors: ["#20a8d8", "#f86c6b"],
+	colors: ["#199EB8", "#f86c6b"],
 	chart: {
 		backgroundColor: '#FFFFFF',
 		borderColor: '#FFFFFF',
-		borderWidth: 1,
+		borderWidth: 0,
 		className: 'light-cart',
 		plotBackgroundColor: '#FFFFFF',
-		plotBorderColor: '#008BC9',
+		plotBorderColor: '#fff',
 		plotBorderWidth: 1,
 		height: '300px'
 	},
@@ -28,7 +28,7 @@ Highcharts.theme = {
 		}
 	},
 	xAxis: {
-		gridLineColor: '#008BC9',
+		gridLineColor: '#fff',
 		gridLineWidth: 1,
 		labels: {
 			style: {
@@ -36,11 +36,11 @@ Highcharts.theme = {
 			}
 		},
 
-		lineColor: '#008BC9',
-		tickColor: '#008BC9',
+		lineColor: '#199EB8',
+		tickColor: '#199EB8',
 		title: {
 			style: {
-				color: '#3E3E3E',
+				color: '#199EB8',
 				fontWeight: 'bold',
 				fontSize: '12px',
 				fontFamily: 'bold 16px "Trebuchet MS", Verdana, sans-serif, Roboto,"Seggoe UI"'
@@ -49,19 +49,19 @@ Highcharts.theme = {
 		}
 	},
 	yAxis: {
-		gridLineColor: '#008BC9',
+		gridLineColor: '#fff',
 		labels: {
 			style: {
-				color: '#3E3E3E'
+				color: '#199EB8'
 			}
 		},
-		lineColor: '#008BC9',
+		lineColor: '#199EB8',
 		minorTickInterval: null,
-		tickColor: '#008BC9',
+		tickColor: '#199EB8',
 		tickWidth: 1,
 		title: {
 			style: {
-				color: '#3E3E3E',
+				color: '#199EB8',
 				fontWeight: 'bold',
 				fontSize: '12px',
 				fontFamily: 'bold 16px "Trebuchet MS", Verdana, sans-serif, Roboto,"Seggoe UI"'
@@ -70,7 +70,7 @@ Highcharts.theme = {
 	},
 	plotOptions: {
 		series: {
-			fillOpacity: 0.1
+			fillOpacity: 50.1
 		}
 	},
 	tooltip: {

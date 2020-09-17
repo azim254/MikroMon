@@ -59,12 +59,12 @@ if (!isset($_SESSION["mikhmon"])) {
                         success: function(data) {
                           var midata = JSON.parse(data);
                           if( midata.length > 0 ) {
-                            var TX=parseInt(midata[0].data);
-                            var RX=parseInt(midata[1].data);
+                            var TX=parseInt(midata[1].data);
+                            var RX=parseInt(midata[0].data);
                             var x = (new Date()).getTime(); 
                             shift=chart.series[0].data.length > 19;
-                            chart.series[0].addPoint([x, TX], true, shift);
-                            chart.series[1].addPoint([x, RX], true, shift);
+                            chart.series[1].addPoint([x, TX], true, shift);
+                            chart.series[0].addPoint([x, RX], true, shift);
                           }
                         },
                         error: function(XMLHttpRequest, textStatus, errorThrown) { 
@@ -116,7 +116,7 @@ if (!isset($_SESSION["mikhmon"])) {
                         xAxis: {
                           type: 'datetime',
                           tickPixelInterval: 150,
-                          maxZoom: 20 * 1000,
+                          maxZoom: 20 * 100,
                         },
                         yAxis: {
                             minPadding: 0.2,
@@ -136,13 +136,13 @@ if (!isset($_SESSION["mikhmon"])) {
                         },
                         
                         series: [{
-                          name: 'Tx',
+                          name: 'Rx',
                           data: [],
                           marker: {
                             symbol: 'circle'
                           }
                         }, {
-                          name: 'Rx',
+                          name: 'Tx',
                           data: [],
                           marker: {
                             symbol: 'circle'

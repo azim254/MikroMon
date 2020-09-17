@@ -33,8 +33,8 @@ $mtheme = array(
 );
 $theme_color = array(
     "#3a4149",
-    "#008BC9",
-    "#008BC9",
+    "#199EB8",
+    "#199EB8",
     "#4dbd74",
     "#e83e8c",
 );
